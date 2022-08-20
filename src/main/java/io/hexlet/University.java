@@ -1,15 +1,44 @@
 package main.java.io.hexlet;
-import java.util.Iterator;
-import java.util.Arrays;
 
-public class University  implements  Iterable<Student>{
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+
+public class University implements Iterable<Student> {
+
     private final Student[] students;
-    public University(final Student[] realStudents) {
-        this.students = realStudents;
+
+    public University(final Student[] students) {
+        this.students = students;
     }
 
-    @Override
-    public Iterator<Student> iterator() {
-        return Arrays.asList(students).iterator();
+    public final Iterator<Student> iterator() {
+        return new StudentsIterator();
+    }
+
+    private class StudentsIterator implements Iterator<Student> {
+        // BEGIN (write your solution here)
+        private int index = 0;
+        @Override
+        public boolean hasNext() {
+            return University.this.students.length > index;
+        }
+
+        @Override
+        public Student next() {
+            return University.this.students[index++];
+        }
+        // END
     }
 }
+
+//public class University  implements  Iterable<Student>{
+//    private final Student[] students;
+//    public University(final Student[] realStudents) {
+//        this.students = realStudents;
+//    }
+//
+//    @Override
+//    public Iterator<Student> iterator() {
+//        return Arrays.asList(students).iterator();
+//    }
+//}
