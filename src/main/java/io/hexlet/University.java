@@ -25,8 +25,12 @@ public class University implements Iterable<Student> {
 
         @Override
         public Student next() {
-            return University.this.students[index++];
+          if (!this.hasNext()) {
+            throw new NoSuchElementException();
+          }
+          return University.this.students[index++];
         }
+
         // END
     }
 }

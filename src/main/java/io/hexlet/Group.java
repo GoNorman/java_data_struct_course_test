@@ -1,8 +1,8 @@
 package main.java.io.hexlet;
 
 import java.util.Iterator;
-
-public class Group implements Iterable<Student> {
+import java.util.NoSuchElementException;
+public class Group implements Iterable<Object> {
 
     private final Student[] students;
 
@@ -10,16 +10,16 @@ public class Group implements Iterable<Student> {
         this.students = students;
     }
 
-    public final Iterator<Student> iterator() {
+    public final Iterator<Object> iterator() {
         return new StudentsIterator(students);
     }
 
-    private static class StudentsIterator implements Iterator<Student> {
+    private static class StudentsIterator implements Iterator<Object> {
         // BEGIN (write your solution here)
         private int index = 0;
         private final Student[] students;
 
-        private StudentsIterator(Student[] students) {
+      private StudentsIterator(Student[] students) {
             this.students = students;
         }
 
@@ -30,7 +30,10 @@ public class Group implements Iterable<Student> {
 
         @Override
         public Student next() {
-            return students[index++];
+          if (!this.hasNext()) {
+            throw new NoSuchElementException();
+          }
+          return students[index++];
         }
         // END
     }
