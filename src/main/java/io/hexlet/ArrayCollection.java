@@ -25,7 +25,7 @@ public class ArrayCollection<T> implements Collection<T>{
   @Override
   public final boolean contains(final Object o) {
     // BEGIN (write your solution here)
-    for (int i = 0; i <= size; i++) {
+    for (int i = 0; i < size; i++) {
       if (array[i].equals(o)) return true;
     }
       return false;
