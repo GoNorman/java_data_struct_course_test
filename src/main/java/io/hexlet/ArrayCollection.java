@@ -75,7 +75,7 @@ public class ArrayCollection<T> implements Collection<T>{
     // BEGIN (write your solution here)
     for (int i = 0; i < size(); i++) {
       if (array[i].equals(o) && i != this.size() - 1) {
-        System.arraycopy(array, i+1, array, i, this.size() - i);
+        System.arraycopy(array, i, array, i, this.size() - i);
         size--;
         return true;
       }
