@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b073765-8f61-4f8d-812a-a7e50e780e06" name="Changes" comment="Start project">
+    <list default="true" id="4b073765-8f61-4f8d-812a-a7e50e780e06" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/hexlet/ArrayCollectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/hexlet/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/hexlet/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_data_struct_course_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_data_struct_course_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/hexlet/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/hexlet/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/hexlet/ArrayCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/hexlet/ArrayCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/hexlet/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/hexlet/University.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -36,12 +46,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.38275862&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ArrayCollectionTest.testSizeWhenSizeIs0">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.io.hexlet.App" />
       <module name="java_data_struct_course_test" />
@@ -49,9 +60,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayCollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_data_struct_course_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.io.hexlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.io.hexlet" />
+      <option name="MAIN_CLASS_NAME" value="main.java.io.hexlet.ArrayCollectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayCollectionTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_data_struct_course_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.io.hexlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.io.hexlet" />
+      <option name="MAIN_CLASS_NAME" value="main.java.io.hexlet.ArrayCollectionTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayCollectionTest.testRemoveFirstElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_data_struct_course_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.io.hexlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.io.hexlet" />
+      <option name="MAIN_CLASS_NAME" value="main.java.io.hexlet.ArrayCollectionTest" />
+      <option name="METHOD_NAME" value="testRemoveFirstElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayCollectionTest.testSizeWhenSizeIs0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_data_struct_course_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.io.hexlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.io.hexlet" />
+      <option name="MAIN_CLASS_NAME" value="main.java.io.hexlet.ArrayCollectionTest" />
+      <option name="METHOD_NAME" value="testSizeWhenSizeIs0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayCollectionTest.testSizeWhenSizeIs0" />
+        <item itemvalue="JUnit.ArrayCollectionTest.testAdd" />
+        <item itemvalue="JUnit.ArrayCollectionTest.testRemoveFirstElement" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.ArrayCollectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660501513514</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=" Модуль 1. Урок 1. Iterator. Update">
+      <created>1661242197962</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661242197962</updated>
+    </task>
+    <task id="LOCAL-00003" summary=" Модуль 1. Урок 3. Collection Interface">
+      <created>1662891520835</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662891520835</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +179,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start project" />
+    <MESSAGE value=" Модуль 1. Урок 1. Iterator. Update" />
+    <MESSAGE value=" Модуль 1. Урок 3. Collection Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Модуль 1. Урок 3. Collection Interface" />
   </component>
 </project>

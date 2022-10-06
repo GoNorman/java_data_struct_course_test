@@ -2,6 +2,7 @@ package main.java.io.hexlet;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+import org.junit.Test;
 
 public class University implements Iterable<Student> {
 
